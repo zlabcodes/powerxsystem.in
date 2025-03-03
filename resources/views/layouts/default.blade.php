@@ -36,11 +36,6 @@
     @yield('extra-head')
 </head>
 <body>
-    <!-- /.preloader -->
-    <div class="preloader">
-        <div class="loading"><span></span><span></span><span></span><span></span></div>
-    </div>
-
     {{-- Header --}}
     @include('partials.header')
 
