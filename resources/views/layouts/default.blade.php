@@ -52,5 +52,8 @@
 
     <!-- Optional: Yield additional scripts -->
     @yield('extra-scripts')
+
+    {{-- Footer --}}
+    @include('partials.footer')
 </body>
 </html>
